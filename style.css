@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+
+	background-color : #8c03fc;
+	color : #a5fc03;
+
+	font-family : Sans-Serif;
+	font-size : 16px ;
+	font-weight: bold;
+	line-height : 1.6em;
+  	margin : 0;
+}
+a {
+	text-decoration: none;
+	color: yellowgreen;
+
+}
+
+a:hover{
+	color : white;
+}
+
+a: active {
+	color: black;
+}
+
+.container{
+
+	width: 80%;
+	margin : auto;
+}
+.button{
+	background-color: darkblue;
+	color : lightgreen;
+	padding: 10px,15px;
+	border: none;
+}
+.button:hover{
+	background : white;
+	color: red;
+}
+
+.box-1{
+	background-color : red;
+	color : #fff;
+/*	border-right : 5px blue solid;
+	border-left  : 5px blue solid;
+	border-top   : 5px blue solid;
+	border-bottom: 5px blue solid;*/
+
+	border : 5px blue solid ;
+    border-width: 30px;
+    border-style: double;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    word-spacing: 1em;
+    margin: 20px;
+}
+.box-1 h1{
+	font-style:italic ;
+	text-transform:uppercase;
+	text-decoration: underline;
+	letter-spacing: 0.1em;
+}
+.box-2{
+	letter-spacing: 0.1em;
+	border: 4px double #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+.category{
+	margin: 20px;
+	border: 20px solid red;
+	padding: 20px;
+	border-radius: 14px;
+
+}
+.category h2{
+	text-align: center;
+}
+
+.category ul{
+ list-style: square;
+}
+
+.category li {
+	padding-bottom: 8px;
+	list-style-image: url('../images/check.png');
+	border-bottom: 8px double deeppink;
+
+}
+
+
+.block{
+	float: right;
+	width: 33.3%;
+	border: 10px solid grey;
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+
+.my{
+
+  padding: 20px;
+
+}
+
+.my .form-group{
+	padding-bottom: 15px;
+}
+
+.my label{
+	display: block;
+}
+
+.my input {
+ 	padding: 8px;
+ 	width : 100%;
+ }
+
+
+/*.my input[type="submit"]{
+	background-color: darkblue;
+	color : lightgreen;
+	padding: 10px,15px;
+	border: none;
+}*/
+
+#main-block{
+	float: left;
+	width: 70%;
+	background-color: white;
+	color: black;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+
+	float: right;
+  width: 30%;
+	background-color: black;
+	color: white;
+	padding: 18px;
+	box-sizing: border-box;
+}
+.fix-me{
+	position: fixed;
+	top: 40px;
+}
